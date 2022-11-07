@@ -1,3 +1,4 @@
+import { writeFileSync } from 'fs'
 import { Movie } from './Movie'
 import { Imdb } from './Imdb'
 
@@ -10,3 +11,6 @@ let movie2 = new Movie(
 )
 
 let imdb = new Imdb([movie1, movie2])
+
+let stringImdb = JSON.stringify(imdb, null, 4)
+writeFileSync(`${__dirname}/ImdbBBDD.json`, stringImdb)

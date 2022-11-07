@@ -1,0 +1,30 @@
+{
+    "peliculas": [
+        {
+            "title": "Titanic",
+            "releaseYear": 1997,
+            "nacionality": "Estadounidense",
+            "genre": "Romance catastrofe",
+            "actors": [],
+            "language": "",
+            "plataforma": "",
+            "isMCU": true,
+            "mainCharacterName": "",
+            "producer": "",
+            "distributor": ""
+        },
+        {
+            "title": "Colega donde esta mi coche",
+            "releaseYear": 2000,
+            "nacionality": "Estadounidense",
+            "genre": "Humor",
+            "actors": [],
+            "language": "",
+            "plataforma": "",
+            "isMCU": true,
+            "mainCharacterName": "",
+            "producer": "",
+            "distributor": ""
+        }
+    ]
+}
